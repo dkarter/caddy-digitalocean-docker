@@ -1,0 +1,7 @@
+your.domain.com {
+  respond "Hello World"  # replace with whatever config you need...
+
+  tls {
+    dns digitalocean {env.DIGITALOCEAN_API_TOKEN}
+  }
+}
